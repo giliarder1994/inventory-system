@@ -3,7 +3,6 @@
 API REST para gerenciamento de inventário, produtos e fornecedores.
 Desenvolvida com Node.js, Express e Sequelize (MySQL), com foco em arquitetura organizada, separação de responsabilidades e testes automatizados.
 
----
 
 ## 🚀 Tecnologias
 
@@ -13,7 +12,6 @@ Sequelize — ORM para MySQL
 Jest & Supertest — Testes unitários e de integração
 Dotenv — Gerenciamento de variáveis de ambiente
 
----
 
 ## 📁 Estrutura do Projeto
 
@@ -30,7 +28,6 @@ tests/
  ├── unit/            # Testes unitários (services)
  └── integration/     # Testes de integração (rotas)
 
----
  
 ## ⚙️ Como rodar localmente
 
@@ -64,7 +61,6 @@ npm start
 Servidor disponível em:
 👉 http://localhost:3000
 
----
 
 ## 📋 Principais Rotas
 
@@ -91,14 +87,12 @@ Servidor disponível em:
 | GET	   | /suppliers     |	Listar fornecedores          |
 | POST   |	/suppliers     |	Cadastrar fornecedor         |
 
----
 
 ## ✅ Qualidade de Código
 
 O projeto aplica conceitos de TDD (Test Driven Development) em partes críticas.
 O stockService possui validações para garantir que o estoque nunca fique inconsistente durante operações de entrada e saída.
 
----
 
 👨‍💻 Autor
 
