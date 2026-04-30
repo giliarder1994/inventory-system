@@ -6,11 +6,11 @@ Desenvolvida com Node.js, Express e Sequelize (MySQL), com foco em arquitetura o
 
 ## 🚀 Tecnologias
 
-Node.js — Ambiente de execução
-Express — Framework web
-Sequelize — ORM para MySQL
-Jest & Supertest — Testes unitários e de integração
-Dotenv — Gerenciamento de variáveis de ambiente
+**Node.js** — Ambiente de execução
+**Express** — Framework web
+**Sequelize** — ORM para MySQL
+**Jest & Supertest** — Testes unitários e de integração
+**Dotenv** — Gerenciamento de variáveis de ambiente
 
 
 ## 📁 Estrutura do Projeto
@@ -32,16 +32,16 @@ tests/
  
 ## ⚙️ Como rodar localmente
 
-# 1. Clone o repositório
+**1. Clone o repositório**
 ```bash
 git clone https://github.com/seu-usuario/inventory-system.git
 cd inventory-system
 ```
-# 2. Instale as dependências
+**2. Instale as dependências**
 ```bash
 npm install
 ```
-# 3. Configure as variáveis de ambiente
+**3. Configure as variáveis de ambiente**
 Crie um arquivo .env na raiz do projeto:
 ```
 DB_HOST=127.0.0.1
@@ -50,12 +50,12 @@ DB_PASS=sua_senha
 DB_NAME=inventory_db
 PORT=3000
 ```
-# 4. Execute os testes (opcional)
+**4. Execute os testes (opcional)**
 Antes de rodar os testes, certifique-se de que o banco de dados está configurado corretamente:
 ```bash
 npm test
 ```
-# 5. Inicie o servidor
+**5. Inicie o servidor**
 ```bash
 npm start
 ```
@@ -65,7 +65,7 @@ Servidor disponível em:
 
 ## 📋 Principais Rotas
 
-# 📦 Produtos
+### 📦 Produtos
 
 | Método |	Rota	          | Descrição                    |
 |--------|----------------|------------------------------|
@@ -74,7 +74,7 @@ Servidor disponível em:
 | PUT    |	/products/:id  |	Atualizar produto            |
 | DELETE	| /products/:id  |	Remover produto              |
 
-# 📊 Estoque (Stock)
+### 📊 Estoque (Stock)
 
 | Método |	Rota	                       | Descrição                        |
 |--------|-----------------------------|----------------------------------|
@@ -82,7 +82,7 @@ Servidor disponível em:
 | POST   |	/stock/out                  |	Registrar saída de mercadoria    |
 | GET    |	/stock/history/:productId   |	Histórico de movimentações       |
 
-# 🤝 Fornecedores (Suppliers)
+### 🤝 Fornecedores (Suppliers)
 | Método |	Rota	          | Descrição                    |
 |--------|----------------|------------------------------|
 | GET	   | /suppliers     |	Listar fornecedores          |
@@ -97,4 +97,4 @@ O stockService possui validações para garantir que o estoque nunca fique incon
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Giliarde Rodrigues
+Desenvolvido por **Giliarde Rodrigues**
