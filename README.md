@@ -4,13 +4,15 @@ API REST para gerenciamento de inventário, produtos e fornecedores.
 Desenvolvida com Node.js, Express e Sequelize (MySQL), com foco em arquitetura organizada, separação de responsabilidades e testes automatizados.
 
 
+
 ## 🚀 Tecnologias
 
-**Node.js** — Ambiente de execução
-**Express** — Framework web
-**Sequelize** — ORM para MySQL
-**Jest & Supertest** — Testes unitários e de integração
-**Dotenv** — Gerenciamento de variáveis de ambiente
+- **Node.js** — Ambiente de execução
+- **Express** — Framework web
+- **Sequelize** — ORM para MySQL
+- **Jest & Supertest** — Testes unitários e de integração
+- **Dotenv** — Gerenciamento de variáveis de ambiente
+
 
 
 ## 📁 Estrutura do Projeto
@@ -29,6 +31,7 @@ tests/
  ├── unit/            # Testes unitários (services)
  └── integration/     # Testes de integração (rotas)
 ```
+
  
 ## ⚙️ Como rodar localmente
 
@@ -37,10 +40,12 @@ tests/
 git clone https://github.com/seu-usuario/inventory-system.git
 cd inventory-system
 ```
+
 **2. Instale as dependências**
 ```bash
 npm install
 ```
+
 **3. Configure as variáveis de ambiente**
 Crie um arquivo .env na raiz do projeto:
 ```
@@ -50,17 +55,21 @@ DB_PASS=sua_senha
 DB_NAME=inventory_db
 PORT=3000
 ```
+
 **4. Execute os testes (opcional)**
 Antes de rodar os testes, certifique-se de que o banco de dados está configurado corretamente:
 ```bash
 npm test
 ```
+
 **5. Inicie o servidor**
 ```bash
 npm start
 ```
+
 Servidor disponível em:
 👉 http://localhost:3000
+
 
 
 ## 📋 Principais Rotas
@@ -89,10 +98,12 @@ Servidor disponível em:
 | POST   |	/suppliers     |	Cadastrar fornecedor         |
 
 
+
 ## ✅ Qualidade de Código
 
 O projeto aplica conceitos de TDD (Test Driven Development) em partes críticas.
 O stockService possui validações para garantir que o estoque nunca fique inconsistente durante operações de entrada e saída.
+
 
 
 ## 👨‍💻 Autor
