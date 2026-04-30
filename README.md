@@ -95,6 +95,6 @@ O projeto aplica conceitos de TDD (Test Driven Development) em partes críticas.
 O stockService possui validações para garantir que o estoque nunca fique inconsistente durante operações de entrada e saída.
 
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 
 Desenvolvido por Giliarde Rodrigues
