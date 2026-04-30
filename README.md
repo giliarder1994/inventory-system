@@ -17,14 +17,14 @@ Dotenv — Gerenciamento de variáveis de ambiente
 
 ```
 src/
-| ├── config/          # Configuração do banco de dados (Sequelize)
-| ├── controllers/     # Orquestração das requisições HTTP
-| ├── models/          # Definição das entidades e tabelas
-| ├── services/        # Regras de negócio
-| ├── routes/          # Definição dos endpoints
-| ├── middlewares/     # Tratamento de erros e interceptadores
-| └── app.js           # Configuração principal do Express
-|
+ ├── config/          # Configuração do banco de dados (Sequelize)
+ ├── controllers/     # Orquestração das requisições HTTP
+ ├── models/          # Definição das entidades e tabelas
+ ├── services/        # Regras de negócio
+ ├── routes/          # Definição dos endpoints
+ ├── middlewares/     # Tratamento de erros e interceptadores
+ └── app.js           # Configuração principal do Express
+
 tests/
  ├── unit/            # Testes unitários (services)
  └── integration/     # Testes de integração (rotas)
@@ -33,32 +33,32 @@ tests/
 ## ⚙️ Como rodar localmente
 
 # 1. Clone o repositório
-
+```bash
 git clone https://github.com/seu-usuario/inventory-system.git
 cd inventory-system
-
+```
 # 2. Instale as dependências
-
+```bash
 npm install
-
+```
 # 3. Configure as variáveis de ambiente
 Crie um arquivo .env na raiz do projeto:
-
+```
 DB_HOST=127.0.0.1
 DB_USER=seu_usuario
 DB_PASS=sua_senha
 DB_NAME=inventory_db
 PORT=3000
-
+```
 # 4. Execute os testes (opcional)
 Antes de rodar os testes, certifique-se de que o banco de dados está configurado corretamente:
-
+```bash
 npm test
-
+```
 # 5. Inicie o servidor
-
+```bash
 npm start
-
+```
 Servidor disponível em:
 👉 http://localhost:3000
 
