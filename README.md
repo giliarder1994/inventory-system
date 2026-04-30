@@ -15,6 +15,7 @@ Dotenv — Gerenciamento de variáveis de ambiente
 
 ## 📁 Estrutura do Projeto
 
+```
 src/
 | ├── config/          # Configuração do banco de dados (Sequelize)
 | ├── controllers/     # Orquestração das requisições HTTP
@@ -27,7 +28,7 @@ src/
 tests/
  ├── unit/            # Testes unitários (services)
  └── integration/     # Testes de integração (rotas)
-
+```
  
 ## ⚙️ Como rodar localmente
 
