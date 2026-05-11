@@ -42,7 +42,7 @@ describe('Stock Service', () => {
       save: jest.fn()
     };
 
-    Product.findByPk.mockResolvedValue(mockProduct)/
+    Product.findByPk.mockResolvedValue(mockProduct);
 
     sequelize.transaction.mockImplementation(async (callback) => {
       return callback({});
